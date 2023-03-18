@@ -1,0 +1,73 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+    background-image: url(/Users/utilisateur/Desktop/projetCVitashi/assets/img/bgprojet.jpg);
+}
+
+.bandhead {
+  text-align: center;
+  padding-left: 13px;
+}
+
+.bandhead > img {
+  width: 289px;
+  height: 139px;
+}
+
+.kunaigauche > img {
+  max-width: 190px;
+}
+
+.reference > article {
+  display: flex;
+  justify-content: space-around;
+}
+
+.title {
+  background: #9b3f38;
+  width: 266px;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  border-radius: 20px;
+  color: #ffffff;
+}
+
+body>.ref {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  justify-content: space-between;
+}
+
+.ref > article {
+  display: block;
+  height: 221px;
+  width: 522px;
+  border-radius: 50px;
+  background: #701818;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 50px auto  40px;
+  padding-left: 15px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.ref > article > figure {
+  min-width: 200px;
+  min-height: 200px;
+  margin: 5% 15px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.ref > article > figure > img {
+  max-width: 100%;
+  height: 204px;
+}
